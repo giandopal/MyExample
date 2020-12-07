@@ -1,0 +1,13 @@
+name = "MyExample"
+uuid = "0c0d1ed7-25d9-46ba-9cf6-6b658b335adc"
+authors = ["Giandomenico Palumbo"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
